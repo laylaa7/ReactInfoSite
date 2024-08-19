@@ -5,13 +5,15 @@ import reactLogo from '../assets/react.svg'
 
 export default function NavBar(){
     return(
-        <div>
+        
             <nav>
-            <img src={reactLogo} className="logo" alt="react logo" />
-            <h1> React Facts</h1>
-            <h2> react course - Proj 1</h2>
+            <a href="https://react.dev" target="_blank">
+            <img src={reactLogo} className="logo react" alt="React logo" />
+            </a>
+            <h3 className='navBar--title'> React Facts</h3>
+            <h4 className='navBar--info'> react course - Proj 1</h4>
             </nav>
-            </div>
+            
         
     )
 }
