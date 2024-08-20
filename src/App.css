@@ -9,6 +9,8 @@
 body {
   margin: 0;
   font-family: Inter, sans-serif;
+  background-color:#282D35;
+
 }
 .logo {
   height: 30px;
@@ -74,4 +76,37 @@ body {
 .navBar--info{
   color: lightgray;
   font-weight: 500;
+  margin-right: 10px;
 } 
+
+main{
+  padding: 55px 55px;
+  
+  /*background-repeat: no-repeat;
+ background-image: url(./assets/react.svg);
+  background-position:left 100%;
+  background-size: 150px;*/
+}
+
+.Main-Heading{
+  margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+  
+}
+.Main-Bulletpoints > li{
+ font-size: 20px;
+ line-height: 19px;
+    padding-block: 10px;
+font-weight:100;
+}
+
+.Main-Bulletpoints > li::marker{
+  color: #61DAFB;
+  font-size: 200%;
+}
+.Main-Bulletpoints > li:hover{
+  color: #61dafbaa;
+  font-size: 200%;
+  transition: ease-in;
+}
